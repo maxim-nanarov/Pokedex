@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>pokemons Wiki</title>
+  <base href="/">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <header>
+    <h2>pokemons Wiki</h2>
+  </header>
+  <main>
+    <div class="search-pokemon">
+      <fieldset>
+        <legend>search a pokemon</legend>
+
+        <input type="text" id="search-poke-input">
+        <button onclick="app.module.searchRandomPokemon()">Surprise Me!</button>
+      </fieldset>
+    </div>
+    <div class="container">
+      <fieldset>
+        <legend>Stats</legend>
+        <div id="pokemons-list">
+        </div>
+    </div>
+    </fieldset>
+    </div>
+  </main>
+  <footer>
+  </footer>
+</body>
+
+</html>
